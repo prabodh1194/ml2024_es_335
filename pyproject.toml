@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ml2024-es-335"
+version = "0.1.0"
+description = ""
+authors = ["Prabodh Agarwal <prabodh1194@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
